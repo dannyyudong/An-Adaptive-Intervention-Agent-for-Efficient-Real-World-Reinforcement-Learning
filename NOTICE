@@ -1,0 +1,18 @@
+AIA: Adaptive Intervention Agent
+
+This distribution includes software derived from HIL-SERL:
+https://github.com/rail-berkeley/hil-serl
+
+HIL-SERL is distributed under the Apache License, Version 2.0. The original
+HIL-SERL citation and project attribution are retained in README.md.
+
+The AIA trajectory-correction implementation documents conceptual influence
+from and compatibility with the demonstration schema used by AutoSERL:
+https://github.com/autoserl/AutoSERL
+
+The external AutoSERL baseline experiment tree is not included in this
+distribution. Users who compare against or redistribute AutoSERL should review
+that project's own source, notices, and citation guidance independently.
+
+Some third-party source files retain their own copyright and license notices.
+Those notices apply to the corresponding files.

@@ -1,0 +1,45 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+
+# Experiment outputs
+wandb/
+*.log
+tmux_*.log
+.latest_run_id
+checkpoint_*/
+checkpoints/
+classifier_ckpt/
+buffer/
+demo_buffer/
+scheduler_buffer/
+scheduler_checkpoints/
+videos/
+recordings/
+runs/
+outputs/
+
+# Data and archives
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.tar
+*.tar.gz
+*.tar.zst
+*.zip
