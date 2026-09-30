@@ -56,6 +56,14 @@ The following values are deliberately not embedded in the repository:
 - `HAND_SERIAL` and `EXTERNAL_SERIAL`: RealSense serial numbers.
 - `CODE_POLICY_USB_TARGET`: calibrated target position as `x y z` in metres.
 
+The USB CodePolicy included in this release is intentionally a fixed,
+geometry-based reference policy. Its current role is to connect the components
+and provide a complete, inspectable end-to-end code path. It is not intended to
+represent the final task-general agent workflow; the full agent pipeline will
+be further updated and refined in subsequent releases. Users must calibrate
+`CODE_POLICY_USB_TARGET` for their own setup and validate all motion and safety
+parameters before execution.
+
 Before running an actor, review the workspace, reset pose, force limits,
 camera crops, action scale, and target coordinates in
 `examples/experiments/usb_insert/config.py`. The checked-in values came from
